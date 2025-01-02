@@ -1,4 +1,4 @@
-## My First Complete Project
+## DeepFake detection using ResNet
 
 This project marks a significant milestone in my academic journey during my third year (5th semester). It was my first deep dive into developing a sophisticated AI model and working with web technologies. The project involved building a deepfake detection system utilizing the powerful ResNet50 architecture, renowned for its efficiency in image classification tasks.
 
