@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
+    <!-- Animation Background -->
+    <div class="animated-background"></div>
+    
     <!-- Navigation bar -->
     <header class="navbar">
         <div class="nav-container">
@@ -22,9 +25,15 @@
     
     <div class="container">
         <h1>Detect Deepfake Videos</h1>
-        <input type="file" id="videoFile" accept="video/*">
-        <button id="uploadButton">Upload and Detect</button>
-        <div id="result"></div>
+        <div class="file-input-container">
+            <input type="file" id="videoFile" class="file-input" accept="video/*">
+            <label for="videoFile" class="file-input-label">Choose File</label>
+            <span id="fileName" class="file-name"></span>
+        </div>
+        <div class="button-result-container">
+            <button id="uploadButton">Upload and Detect</button>
+            <div id="result"></div>
+        </div>
         <!-- Loading bar -->
         <div id="loading" class="loading-bar">
             <div class="loading-bar-inner"></div>

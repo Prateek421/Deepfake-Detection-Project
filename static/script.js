@@ -48,3 +48,9 @@ document.getElementById('uploadButton').addEventListener('click', () => {
         document.getElementById('uploadButton').style.display = 'block';
     });
 });
+
+// Update the file name display when a file is selected
+document.getElementById('videoFile').addEventListener('change', (event) => {
+    const fileName = event.target.files[0].name;
+    document.getElementById('fileName').innerText = fileName;
+});
