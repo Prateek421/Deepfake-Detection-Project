@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">Deepfake Detection</h2>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1>Detect Deepfake Videos</h1>
+        <input type="file" id="videoFile" accept="video/*">
+        <button id="uploadButton">Upload and Detect</button>
+        <div id="result"></div>
+        <!-- Loading bar -->
+        <div id="loading" class="loading-bar">
+            <div class="loading-bar-inner"></div>
+        </div>
+        <!-- Thumbnail for video preview -->
+        <img id="thumbnail" />
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
