@@ -10,7 +10,7 @@ const App = () => {
             </div>
             <div className="section video-section">
                 <video autoPlay muted loop playsInline preload="auto" id="background-video">
-                    <source src="/videos/background.mp4" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dkov95h2b/video/upload/v1741959296/ylbmq6qnpr1r910nzfxj.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             {/* Overlay div */}
