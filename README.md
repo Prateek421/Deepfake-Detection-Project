@@ -54,4 +54,4 @@ npm start
 ```
 
 ## Conclusion
-This project was an incredible learning experience, covering deep learning, backend development with Flask, frontend development with React, and deploying AI models in production. Future improvements could involve enhancing model accuracy, optimizing performance, and integrating additional features for real-world applications.
+This project was an incredible learning experience, covering deep learning, backend development with Flask and frontend development with React. Future improvements could involve enhancing model accuracy, optimizing performance, and integrating additional features for real-world applications.
