@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load the trained deepfake detection model
-model_path = 'D:\\Project1\\deepfake_project\\deepfake_resnet50_model.h5'
+model_path = './deepfake_resnet50_model.h5'
 
 if not os.path.exists(model_path):
     print("Error: Model file not found!")

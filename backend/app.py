@@ -1,19 +1,17 @@
 import os
 from flask_cors import CORS
-from flask import Flask, request, render_template, redirect, url_for, jsonify
+from flask import Flask, request, render_template, jsonify
 from werkzeug.utils import secure_filename
 from deepfake_detection import detect_deepfake
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='../frontend/src', template_folder='../frontend/public')
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
-
 
 UPLOAD_FOLDER = 'uploads/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Ensure the upload folder exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -37,7 +35,6 @@ def detect_deepfake_route():
 
         print(f'Deepfake Detection Result: {result}')  # Debugging Output
 
-        # Ensure proper JSON format
         return jsonify({"result": result})  # No `lower()`, since `result` is already correct
 
     return jsonify({"error": "Unknown error occurred"}), 500
