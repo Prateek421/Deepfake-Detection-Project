@@ -1,9 +1,44 @@
-## DeepFake detection using ResNet
+# DeepFake Detection using ResNet50
 
-This project marks a significant milestone in my academic journey during my third year (5th semester). It was my first deep dive into developing a sophisticated AI model and working with web technologies. The project involved building a deepfake detection system utilizing the powerful ResNet50 architecture, renowned for its efficiency in image classification tasks.
+## Overview
+This project is a deepfake detection system built using ResNet50, a powerful deep learning model for image classification. The system is integrated with a Flask backend and a React-based frontend to provide a seamless user experience.
 
-To bring this concept to life, we integrated Python Flask as the backend framework to create a seamless web application that users could interact with. This experience not only allowed me to gain hands-on expertise in machine learning and deep learning concepts but also taught me the intricacies of deploying AI models into real-world applications.
+This project was developed during my third year (5th semester) as a deep dive into AI model development and web technologies. The goal was to train a model to detect deepfake images and deploy it as a functional web application.
 
-From training the ResNet50 model on datasets to detect manipulated media, to implementing a functional web interface using Flask, the project encompassed various aspects of full-stack AI development. It was an enriching experience that significantly enhanced my technical skill set, including model optimization, data preprocessing, and integrating AI solutions with web technologies.
+## Features
+- **Deep Learning Model**: Uses ResNet50 for deepfake detection.
+- **Flask Backend**: Handles model inference and API requests.
+- **React Frontend**: Provides an interactive UI for users.
 
-This project served as a solid foundation for my future endeavors in artificial intelligence and software development, sparking my passion for creating impactful and innovative technological solutions.
+## Installation and Setup
+
+### **1️⃣ Set Up the Backend**
+#### Install Python Virtual Environment:
+```sh
+cd backend
+conda create -p venv python==3.12
+conda activate ./venv
+```
+#### Install Dependencies:
+```sh
+pip install -r requirements.txt
+```
+#### Run the Backend:
+```sh
+python app.py
+```
+
+### **2️⃣ Set Up the Frontend**
+#### Install Node Modules:
+```sh
+cd frontend
+npm install
+```
+#### Run the Frontend:
+```sh
+npm start
+```
+
+## Conclusion
+This project was an incredible learning experience, covering deep learning, backend development with Flask, frontend development with React, and deploying AI models in production. Future improvements could involve enhancing model accuracy, optimizing performance, and integrating additional features for real-world applications.
+
