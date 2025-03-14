@@ -12,7 +12,13 @@ This project was developed during my third year (5th semester) as a deep dive in
 
 ## Installation and Setup
 
-### **1️⃣ Set Up the Backend**
+### **1️⃣ Cloning**
+#### Clone the repository using the link:
+```sh
+git clone https://github.com/Viz2202/Deepfake.git
+```
+
+### **2️⃣ Set Up the Backend**
 #### Install Python Virtual Environment:
 ```sh
 cd backend
@@ -36,7 +42,7 @@ This will download the `.h5` model file into the backend folder.
 python app.py
 ```
 
-### **2️⃣ Set Up the Frontend**
+### **3️⃣ Set Up the Frontend**
 #### Install Node Modules:
 ```sh
 cd frontend
