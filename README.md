@@ -23,6 +23,14 @@ conda activate ./venv
 ```sh
 pip install -r requirements.txt
 ```
+#### Import the Deep Learning Model (`.h5` file) using Git LFS:
+Since `.h5` files are large, they are stored using Git LFS. To ensure the model file is available in your backend, follow these steps:
+```sh
+git lfs install
+git lfs pull
+```
+This will download the `.h5` model file into the backend folder.
+
 #### Run the Backend:
 ```sh
 python app.py
@@ -41,4 +49,3 @@ npm start
 
 ## Conclusion
 This project was an incredible learning experience, covering deep learning, backend development with Flask, frontend development with React, and deploying AI models in production. Future improvements could involve enhancing model accuracy, optimizing performance, and integrating additional features for real-world applications.
-
