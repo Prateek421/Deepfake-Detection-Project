@@ -9,7 +9,6 @@ This project was developed during my third year (5th semester) as a deep dive in
 - **Deep Learning Model**: Uses ResNet50 for deepfake detection.
 - **Flask Backend**: Handles model inference and API requests.
 - **React Frontend**: Provides an interactive UI for users.
-- **Full-Stack Deployment**: The backend can be hosted on Render, and the frontend can be deployed on Vercel.
 
 ## Installation and Setup
 
