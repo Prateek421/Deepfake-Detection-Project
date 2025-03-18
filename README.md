@@ -15,7 +15,7 @@ This project was developed during my third year (5th semester) as a deep dive in
 ### **1️⃣ Cloning**
 #### Clone the repository using the link:
 ```sh
-git clone https://github.com/Viz2202/Deepfake.git
+git clone https://github.com/Prateek421/Deepfake-Detection-Project.git
 ```
 
 ### **2️⃣ Set Up the Backend**
